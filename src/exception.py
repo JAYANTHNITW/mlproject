@@ -18,8 +18,3 @@ class CustomException(Exception):
         return self.error_message
 
 
-if __name__=="__main__":
-     
-    logging.info("Divide by Zero") 
-        #raise CustomException(e,sys)
-             
